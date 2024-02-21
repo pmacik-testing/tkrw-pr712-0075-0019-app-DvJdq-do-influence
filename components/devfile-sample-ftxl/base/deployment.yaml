@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ftxl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0019-tenant/tkrw-pr712-0075-0019-app/devfile-sample-ftxl@sha256:4904f5d6016df0d053013f08d2afbb6c199d5c587c4b1bf7f23ffd94edd207ee
         name: my-nodejs
         ports:
         - containerPort: 3001
